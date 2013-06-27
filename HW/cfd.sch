@@ -19,14 +19,6 @@ LIBS:interface
 LIBS:digital-audio
 LIBS:atmel
 LIBS:contrib
-LIBS:i2c
-LIBS:w_analog
-LIBS:w_connectors
-LIBS:w_device
-LIBS:w_opto
-LIBS:w_rtx
-LIBS:cern
-LIBS:dha
 LIBS:cfd-cache
 EELAYER 27 0
 EELAYER END
@@ -510,17 +502,6 @@ F 2 "" H 10350 6600 60  0001 C CNN
 F 3 "" H 10350 6600 60  0001 C CNN
 	1    10350 6600
 	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 51A6163F
-P 8750 4150
-F 0 "#PWR?" H 8750 4150 30  0001 C CNN
-F 1 "GND" H 8750 4080 30  0001 C CNN
-F 2 "" H 8750 4150 60  0001 C CNN
-F 3 "" H 8750 4150 60  0001 C CNN
-	1    8750 4150
-	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
@@ -1761,4 +1742,15 @@ Text Notes 3900 8450 0    60   ~ 0
 opt 8R25
 Text Notes 6000 7500 3    60   ~ 0
 opt 27R4
+$Comp
+L DGND #PWR?
+U 1 1 51CB6184
+P 8750 4150
+F 0 "#PWR?" H 8750 4150 40  0001 C CNN
+F 1 "DGND" H 8750 4080 40  0000 C CNN
+F 2 "" H 8750 4150 60  0001 C CNN
+F 3 "" H 8750 4150 60  0001 C CNN
+	1    8750 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
