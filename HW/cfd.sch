@@ -26,7 +26,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Constant Fraction Discriminator"
-Date "26 jun 2013"
+Date "27 jun 2013"
 Rev "0.1"
 Comp "DH consulting"
 Comment1 ""
@@ -1741,7 +1741,7 @@ Wire Wire Line
 Text Notes 3900 8450 0    60   ~ 0
 opt 8R25
 Text Notes 6000 7500 3    60   ~ 0
-opt 27R4
+opt 27R
 $Comp
 L DGND #PWR?
 U 1 1 51CB6184
@@ -1753,4 +1753,8 @@ F 3 "" H 8750 4150 60  0001 C CNN
 	1    8750 4150
 	1    0    0    -1  
 $EndComp
+Text Notes 6000 8450 3    60   ~ 0
+opt 46R4
+Text Notes 5350 8450 0    60   ~ 0
+opt 0R
 $EndSCHEMATC
